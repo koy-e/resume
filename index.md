@@ -1,37 +1,33 @@
-## Welcome to GitHub Pages
+# OLUKOYE FATOKI
 
-You can use the [editor on GitHub](https://github.com/koy-e/resume/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+PROFILE
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+##### I am an individual who enjoys taking on new challenges and solving problems for myself as well as others.  I measure the success of every action I take by how much it has helped another person. I aim to Gain experience of working in the real world of computer science. As a third-year student, I have limited exposure to solving real life challenges that come with working as a computer scientist.  I am confident that the opportunity to work with an organization that goes through these challenges daily would provide as much benefit to me as I would like to give to it.
 
-### Markdown
+SKILLS
+- Elementary proficiency in Mandarin Chinese
+- Experienced in multiple programming languages (java, JavaScript, c, c++ and python).
+- Communication and active listening skills
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+VOLUNTEER EXPERIENCE  
+- **Peer Advisor** — International College of Manitoba, Winnipeg\
+_September 2019- May 2020_\
+Directed fellow students towards proper academic resources and academic support services
+- **Dog walker** — Hong Kong Dog Rescue, Hong Kong\
+_September 2016 - May 2017_\
+Volunteered to walk dogs for a kennel with over 400 dogs 
 
-```markdown
-Syntax highlighted code block
+EDUCATION 
+- **University of Manitoba**, WInnipeg — Computer Science Honours,\
+ _January 2020 - present_ 
+- **International College of Manitoba**, Winnipeg — UTP stage II programme\
+_January 2019 - December 2019_
+- **Li Po Chun United World College**, Hong Kong— International Baccalaureate\
+_September 2016 - May 2018_
 
-# Header 1
-## Header 2
-### Header 3
+AWARDS  
+- Merit Scholarship Award
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/koy-e/resume/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+LANGUAGES  
+- English
+- Yoruba
