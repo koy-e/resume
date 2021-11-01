@@ -1,23 +1,4 @@
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# OLUKOY FATOKI
+# OLUKOYE FATOKI
 
 PROFILE
 
