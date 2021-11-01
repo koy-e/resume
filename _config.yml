@@ -30,7 +30,7 @@ url: "https://koy-e.github.io" # the base hostname & protocol for your site, e.g
 # github_username:  jekyll
 
 # Build settings
-theme: jekyll-theme-cayman
+theme: jekyll-theme-minimal
 plugins:
   - jekyll-feed
 
