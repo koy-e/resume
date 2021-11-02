@@ -112,6 +112,6 @@ _Theme authors:_
 
 2. Why is my resumé not showing up?
 
-    - One possible issue is that your Github pages source may not be set correctly. Refer to step 13 under the Instructions subsection, "Host your site on Github pages".` 
+    - One possible issue is that your Github pages source may not be set correctly. Refer to step 13 under the Instructions subsection, "Host your site on Github pages".
 
-    - Another explanation for this is that your baseurl is misspelled. Refer to step 2 under the Instructions subsection, "Host your site on Github page".`
+    - Another explanation for this is that your baseurl is misspelled. Refer to step 2 under the Instructions subsection, "Host your site on Github page".
