@@ -108,7 +108,7 @@ _Theme authors:_
 ---
 1. Do I need to use VSCode as my Markdown editor?
 
-    - No. Any Markdown editor would probably work the same, if not better than VSCode. It was my personal choice`
+    - No. Any Markdown editor would probably work the same, if not better than VSCode. It was my personal choice
 
 2. Why is my resumé not showing up?
 
