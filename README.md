@@ -8,6 +8,7 @@ Describe the practical steps of how to host and format a resume using Markdown, 
 
 - jekyll
 - VScode
+- a resume formatted in markdown
 
 **Instructions**
 
@@ -37,9 +38,9 @@ _Write your resume in markdown_
 _Host your site on github pages:_
 
 1. Make a new repository on [GitHub](https://github.com). pick a name for your new repository and ensure that that its visibility is set to public.
-2. In the "config.yml" file that jekyll created, set the variable, "baseurl" to the name of the repository you have just created. 
-3. In your terminal, go to the directory of your static site. 
-4. Type git init to initialize a local repository. 
+2. set the variable "baseurl", In the "config.yml" file, that jekyll created to the name of the repository you have just created. 
+3. Navigate to the directory of your static site in your terminal, 
+4. Type the command, "git init" to initialize a local repository. 
 5. Type the command, "git checkout -b gh-pages" to check out your gh-pages branch. 
 6. Type the command, "git status". there should be no commits done yet.
 7. Type the command "git add ." to add all the files to the local repository. 
@@ -47,7 +48,8 @@ _Host your site on github pages:_
 9. Copy the link to your github repository.
 10. Type the command, "git remote add origin {link to your github repository}" to link your local repository to your github repository. 
 11. Type the command, "git push origin gh-pages" to push all changes made in your local repository to your github repository. 
-12. On your github settings, under the pages subsection, near the top, you will notice a banner that says " Your site is published at https://{github username}.github.io/{repository name}/"
+12. On your github settings, under the pages subsection, near the top, you will notice a banner that says " Your site is published at https://{github username}.github.io/{repository name}/". you may click on that link to view your site. You can
+![GIF DEMO](img/screen recordddd.gif)
 
 **More Resources**
 
@@ -66,12 +68,13 @@ _group members:_
 
 **FAQ**
 
+1. Why is Markdown better than a word processor?
+
+- Although a word processor is slightly easier to write in,
+(2) Aquestionaboutthepracticaldetails,suchas“Whyismyresumenotshowingup?”
 1. Do I need to host my site on the "gh-pages" branch?
 
 - No. you can 
 
 2. what is VSCode?\
 - Visual Studio Code is a lightweight but powerful source code editor which runs on your desktop and is available for Windows, macOS and Linux. It comes with built-in support for JavaScript, TypeScript and Node.js and has a rich ecosystem of extensions for other languages (such as C++, C#, Java, Python, PHP, Go) and runtimes (such as .NET and Unity). 
-
-3. what is jekyll?
-- jekyll is a static site generator
