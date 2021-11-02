@@ -1,5 +1,16 @@
-## HOSTING A RESUME ON GITHUB PAGES
+## Making an online resumé
 
+### table of contents
+
+- [Purpose.](#purpose)
+- [prerequisites](#prerequisites).
+- [Instructions](#Instructions).
+    - Use a Lightweight markup Language: Markdown
+    - Make static websites: Jekyll
+    - Use distributed version control: Github Pages
+- [More resources](#More-resources)
+- [Authors and aknowlegdements](#Authors-and-Aknowledgements)
+- [FAQ](#FAQ)
 ### **Purpose**
 ---
 
@@ -32,6 +43,10 @@ Extract the archive contents.
 
 
 b). **_Make static websites: Jekyll_**
+
+Static websites do not have any server-side application depencies or databases and thus are easy to migrate and they never never crash.
+
+Static site generators are tools that help you create your static site. Although you could make a static site without them, they make the task easier by processing everything into a website for you and it is easy to update the site. 
 
 _download jekyll:_ macOS
 
