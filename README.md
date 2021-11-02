@@ -2,14 +2,14 @@
 
 ### **Table of contents**
 - [Purpose.](#purpose)
-- [prerequisites](#prerequisites).
-- [Instructions](#Instructions).
+- [prerequisites.](#prerequisites)
+- [Instructions.](#Instructions)
     - Use a Lightweight markup Language: Markdown
     - Make static websites: Jekyll
     - Use distributed version control: Github Pages
-- [More resources](#More-resources)
-- [Authors and acknowledgments](#Authors-and-Acknowledgments)
-- [FAQ](#FAQ)
+- [More resources.](#More-resources)
+- [Authors and acknowledgments.](#Authors-and-Acknowledgments)
+- [FAQ.](#FAQ)
 
 ### **Purpose**
 ---
