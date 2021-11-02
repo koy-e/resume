@@ -8,14 +8,19 @@ Describe the practical steps of how to host and format a resume using Markdown, 
 ### **Prerequisites**
 ---
 
-- jekyll
-- VScode
-- a resume formatted in markdown
+- jekyll.
+- VScode.
+- github account.
+- git installed on computer.
+- a resume formatted in markdown.
 
 ### **Instructions**
 ---
+a). **_Use a Lightweight markup Language: Markdown_**
 
-_Download VSCode:_ 
+Lightweight Markup Languages such as **Markdown** or ASCIIdoc are an easy-to-learn alternative to other markup languages like HTML or XML. While they dont have as many formatting options as other word processors, it is much more straightforward to collaborate with other individuals on with because changes can be merged together much more easily.Overall, they give you the best of both worlds between nicely formatted text and web portability.
+
+To use a Markdown formatted language. we will need a Markdown editor. For this tutorial, we will be using VSCode.
 
 1. go to the VSCode website [here](https://code.visualstudio.com).
 2. Open the browser's download list and locate the downloaded archive.
@@ -24,6 +29,10 @@ Extract the archive contents.
 4. Drag Visual Studio Code.app to the Applications folder, making it available in the macOS Launchpad.
 5. Add VS Code to your Dock by right-clicking on the icon to bring up the context menu and choosing Options, Keep in Dock.
 
+
+
+b). **_Make static websites: Jekyll_**
+
 _download jekyll:_ macOS
 
 1. Check what version of ruby you have installed by typing the command, "ruby -v", into your terminal. if you do not have ruby installed, you will have to download it.
@@ -31,12 +40,11 @@ _download jekyll:_ macOS
 3. Type the command "gem install jekyll bundler" into your terminal to download jekyll. 
 4. To ensure that the download worked successfully. type the command "jekyll -v" to check the version of jekyll you have installed.
 
-_make a local site with jekkyll_
+_create a static site_
 1. In VSCode, open a new folder. 
 2. In the terminal on VSCode, type the command "jekyll new {site name}" to create some default scsffolding for your site in a new folder. 
 
-
-_Host your site on github pages:_
+c). **_Use distributed version control: Github Pages_**
 
 1. Make a new repository on [GitHub](https://github.com). pick a name for your new repository and ensure that that its visibility is set to public.
 2. set the variable "baseurl", In the "config.yml" file, that jekyll created to the name of the repository you have just created. 
@@ -49,38 +57,43 @@ _Host your site on github pages:_
 9. Copy the link to your github repository.
 10. Type the command, "git remote add origin {link to your github repository}" to link your local repository to your github repository. 
 11. Type the command, "git push origin gh-pages" to push all changes made in your local repository to your github repository. 
-12. On your github settings, under the pages subsection, near the top, you will notice a banner that says " Your site is published at https://{github username}.github.io/{repository name}/". you may click on that link to view your site.
+12. On your github settings, under the pages subsection, there is another subsection called source. make sure that the branch field is set to the gh-pages branch (_if that is the branch you used_)and the folder is set to the root (_if the files are in your root directory on your repository_).
+
+ **On the same page, Near the top, you will notice a banner that says,**
+
+ "Your site is published at https://{github username}.github.io/{repository name}/".
+
+ **you may click on that link to view your site.**
 
 ![GIFdemo](img/screenrecordddd.gif)
 
 ### **More Resources**
 ---
 
-
-- [This](https://www.markdowntutorial.com) is a markdown tutorial
-- [This](https://www.amazon.ca/Modern-Technical-Writing-Introduction-Documentation-ebook/dp/B01A2QL9SS) a book about software documentation.
-<!-- - one other resource -->
+- A [Markdown Tutorial](https://www.markdowntutorial.com).
+- [Modern Technical Writing: An Introduction to Software Documentation](https://www.amazon.ca/Modern-Technical-Writing-Introduction-Documentation-ebook/dp/B01A2QL9SS) by Andrew Etter.
+- VScode [documentation](https://code.visualstudio.com/docs/languages/markdown) about how to use it with Markdown
 
 ### **Authors and Aknowledgements**
 ---
 
-_group members:_
+_Group members:_
 - Michael Bathie. 
 - Faith De Leon.
 - Tuan D. Le. 
 - Andy Tan.
 - Olukoye Fatoki. 
 
+_Theme authors:_
+- [Steve Smith](https://github.com/orderedlist).
+
+
 ### **FAQ**
 ---
+1. Do I need to use VSCode as my markdown editor?
 
-1. Why is Markdown better than a word processor?
+        No. Any markdown editor would probably work the same, if not better than VSCode. It was my personal choice
 
-- Although a word processor is slightly easier to write in,
-(2) Aquestionaboutthepracticaldetails,suchas“Whyismyresumenotshowingup?”
-1. Do I need to host my site on the "gh-pages" branch?
+2. Why is my resume not showing up?
 
-- No. you can 
-
-2. what is VSCode?\
-- Visual Studio Code is a lightweight but powerful source code editor which runs on your desktop and is available for Windows, macOS and Linux. It comes with built-in support for JavaScript, TypeScript and Node.js and has a rich ecosystem of extensions for other languages (such as C++, C#, Java, Python, PHP, Go) and runtimes (such as .NET and Unity). 
+        One possible Issue is that your githup pages source may not be set correctly. Refer to step 13 under the Instructions subsection, "Host your site on github pages".
