@@ -20,53 +20,55 @@ Extract the archive contents.
 4. Drag Visual Studio Code.app to the Applications folder, making it available in the macOS Launchpad.
 5. Add VS Code to your Dock by right-clicking on the icon to bring up the context menu and choosing Options, Keep in Dock.
 
-_download jekyll:_
+_download jekyll:_ macOS
 
-1. check what version of ruby you have installed by typing the command, "ruby -v", into your terminal. if you do not have ruby installed, you will have to download it.
-2. check what version of gem you have installed by typing the command, "gem -v" into your terminal. if you do not have gem installed, you will have to download it.
-3. type the command "gem install jekyll bundler" into your terminal to download jekyll. 
-4. to ensure that
+1. Check what version of ruby you have installed by typing the command, "ruby -v", into your terminal. if you do not have ruby installed, you will have to download it.
+2. Check what version of gem you have installed by typing the command, "gem -v" into your terminal. if you do not have gem installed, you will have to download it.
+3. Type the command "gem install jekyll bundler" into your terminal to download jekyll. 
+4. To ensure that the download worked successfully. type the command "jekyll -v" to check the version of jekyll you have installed.
+
+_make a local site with jekkyll_
+1. In VSCode, open a new folder. 
+2. In the terminal on VSCode, type the command "jekyll new {site name}" to create some default scsffolding for your site in a new folder. 
+
 _Write your resume in markdown_
 
 
-_make a local site with jekkyll_
-1. in the terminal, navigate to your local repository
-2. use the command, 
+_Host your site on github pages:_
 
-
-
-
-_Make a github repository_
-
-1. make a new repository on [GitHub](https://github.com)
-2. transfer your files to the repository
-3. go into your settings
-4. click the "pages" subsection
-5. choose the source. if you just trnasferred your 
-6. choose a theme
-7. near the top of the page, there will be a banner that says  "Your site is published at https://{Git username}.github.io/{repository name}/"
-
-_Using GitHub_
-
-_pull_ : \
-_push_:\
-_commit_:
-
-_Host site on github pages_
+1. Make a new repository on [GitHub](https://github.com). pick a name for your new repository and ensure that that its visibility is set to public.
+2. In the "config.yml" file that jekyll created, set the variable, "baseurl" to the name of the repository you have just created. 
+3. In your terminal, go to the directory of your static site. 
+4. Type git init to initialize a local repository. 
+5. Type the command, "git checkout -b gh-pages" to check out your gh-pages branch. 
+6. Type the command, "git status". there should be no commits done yet.
+7. Type the command "git add ." to add all the files to the local repository. 
+8. Type "git commit m '{first commit message}"', to commit these files to your repository.
+9. Copy the link to your github repository.
+10. Type the command, "git remote add origin {link to your github repository}" to link your local repository to your github repository. 
+11. Type the command, "git push origin gh-pages" to push all changes made in your local repository to your github repository. 
+12. On your github settings, under the pages subsection, near the top, you will notice a banner that says " Your site is published at https://{github username}.github.io/{repository name}/"
 
 **More Resources**
 
-- link to markdown tutorial
-- link to etters book
-- one other resource
+- [This](https://www.markdowntutorial.com) is a markdown tutorial
+- [This](https://www.amazon.ca/Modern-Technical-Writing-Introduction-Documentation-ebook/dp/B01A2QL9SS) a book about software documentation.
+<!-- - one other resource -->
 
 **Authors and Aknowledgements**
 
+_group members:_
+- Michael Bathie. 
+- Faith De Leon.
+- Tuan D. Le. 
+- Andy Tan.
+- Olukoye Fatoki. 
+
 **FAQ**
 
-1. what is github?
+1. Do I need to host my site on the "gh-pages" branch?
 
-- Git hub is a ...
+- No. you can 
 
 2. what is VSCode?\
 - Visual Studio Code is a lightweight but powerful source code editor which runs on your desktop and is available for Windows, macOS and Linux. It comes with built-in support for JavaScript, TypeScript and Node.js and has a rich ecosystem of extensions for other languages (such as C++, C#, Java, Python, PHP, Go) and runtimes (such as .NET and Unity). 
