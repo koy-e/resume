@@ -47,14 +47,14 @@ Static site generators are tools that help you create your static site. Although
 
 _download Jekyll:_ macOS
 
-1. Check what version of ruby you have installed by typing the command, "ruby -v", into your terminal. If you do not have ruby installed, you will have to download it.
-2. Check what version of gem you have installed by typing the command, "gem -v" into your terminal. If you do not have gem installed, you will have to download it.
-3. Type the command "gem install Jekyll bundler" into your terminal to download Jekyll.
-4. To ensure that the download worked successfully. Type the command "Jekyll -v" to check the version of Jekyll you have installed.
+1. Check what version of ruby you have installed by typing the command, `ruby -v`, into your terminal. If you do not have ruby installed, you will have to download it.
+2. Check what version of gem you have installed by typing the command, `gem -v` into your terminal. If you do not have gem installed, you will have to download it.
+3. Type the command `gem install Jekyll bundler` into your terminal to download Jekyll.
+4. To ensure that the download worked successfully. Type the command `Jekyll -v` to check the version of Jekyll you have installed.
 
 _create a static site_
 1. In VSCode, open a new folder. 
-2. In the terminal on VSCode, type the command "Jekyll new {site name}" to create some default scaffolding for your site in a new folder. 
+2. In the terminal on VSCode, type the command `Jekyll new {site name}` to create some default scaffolding for your site in a new folder. 
 
  **_c). Use distributed version control: Github Pages_**
 
@@ -63,21 +63,21 @@ Distributed version control is a form of version control in which a project's co
 For this tutorial, we will be using Github's static site hoster: Github pages. Github pages will allow you to host your resumé online for other people to see.
 
 1. Make a new repository on [GitHub](https://github.com). pick a name for your new repository and ensure that its visibility is set to public.
-2. Set the variable "baseurl", In the "config.yml" file, that Jekyll created to the name of the repository you have just created.
+2. Set the variable `baseurl`, In the `config.yml` file, that Jekyll created to the name of the repository you have just created.
 3. Navigate to the directory of your static site in your terminal, 
-4. Type the command, "git init" to initialize a local repository. 
-5. Type the command, "git checkout -b gh-pages" to check out your gh-pages branch. 
-6. Type the command, "git status". there should be no commits done yet.
-7. Type the command "git add ." to add all the files to the local repository. 
-8. Type "git commit m '{first commit message}"', to commit these files to your repository.
+4. Type the command, `git init` to initialize a local repository. 
+5. Type the command, `git checkout -b gh-pages` to check out your gh-pages branch. 
+6. Type the command, `git status`. there should be no commits done yet.
+7. Type the command `git add .` to add all the files to the local repository. 
+8. Type `git commit m '{first commit message}`', to commit these files to your repository.
 9. Copy the link to your Github repository.
-10. Type the command, "git remote add origin {link to your Github repository}" to link your local repository to your Github repository. 
-11. Type the command, "git push origin gh-pages" to push all changes made in your local repository to your Github repository. You should see your files in your Github repository.
-12. On your Github settings, under the "pages" subsection, there is another subsection called source. Make sure that the branch field is set to the gh-pages branch (_if that is the branch you used_)and the folder is set to the root (_if the files are in your root directory on your repository_).
+10. Type the command, `git remote add origin {link to your Github repository}` to link your local repository to your Github repository. 
+11. Type the command, `git push origin gh-pages` to push all changes made in your local repository to your Github repository. You should see your files in your Github repository.
+12. On your Github settings, under the `pages` subsection, there is another subsection called source. Make sure that the branch field is set to the gh-pages branch (_if that is the branch you used_)and the folder is set to the root (_if the files are in your root directory on your repository_).
 
  **On the same page, near the top, you will notice a banner that says,**
 
- "Your site is published at HTTPS://{github username}.github.io/{repository name}/".
+ `Your site is published at HTTPS://{github username}.github.io/{repository name}/`.
 
  **you may click on that link to view your site.**
 
@@ -112,4 +112,4 @@ _Theme authors:_
 
     - One possible issue is that your Github pages source may not be set correctly. Refer to step 13 under the Instructions subsection, "Host your site on Github pages". 
 
-    - Another explanation for this is that your baseurl is misspelled. Refer to step 2 under the Instructions subsection, "Host your site on Github pages". 
+    - Another explanation for this is that your baseurl is misspelled. Refer to step 2 under the Instructions subsection, "Host your site on Github page". 
