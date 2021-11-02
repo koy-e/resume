@@ -50,7 +50,7 @@ _Host your site on github pages:_
 11. Type the command, "git push origin gh-pages" to push all changes made in your local repository to your github repository. 
 12. On your github settings, under the pages subsection, near the top, you will notice a banner that says " Your site is published at https://{github username}.github.io/{repository name}/". you may click on that link to view your site.
 
-![GIFdemo](img/screen recordddd.gif)
+![GIFdemo](img/screenrecordddd.gif)
 
 **More Resources**
 
