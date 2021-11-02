@@ -71,7 +71,7 @@ For this tutorial, we will be using Github for version control and its static si
 5. Type the command, `git checkout -b gh-pages` to check out your gh-pages branch. 
 6. Type the command, `git status`. there should be no commits done yet.
 7. Type the command `git add.` to add all the files to the local repository. 
-8. Type `git commit m '{first commit message}`', to commit these files to your repository.
+8. Type `git commit m '{first commit message}`, to commit these files to your repository.
 9. Copy the link to your Github repository.
 10. Type the command, `git remote add origin {link to your Github repository}` to link your local repository to your Github repository. 
 11. Type the command, `git push origin gh-pages` to push all changes made in your local repository to your Github repository. You should see your files in your Github repository.
