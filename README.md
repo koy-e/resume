@@ -32,7 +32,7 @@ Lightweight Markup Languages such as **Markdown** or ASCIIdoc are an easy-to-lea
 For this tutorial, the lightweight Markup Language we will use is Markdown. To use Markdown. we will need a Markdown editor. The Markdown will be using VSCode.
 
 _Download VSCode_
-1. go to the VSCode website [here](https://code.visualstudio.com).
+1. Go to the VSCode website [here](https://code.visualstudio.com).
 2. Open the browser's download list and locate the downloaded archive.
 Extract the archive contents.
 3. Use double-click for some browsers or select the "magnifying glass" icon with Safari.
