@@ -1,16 +1,19 @@
 ## HOSTING A RESUME ON GITHUB PAGES
 
 ### **Purpose**
+---
 
 Describe the practical steps of how to host and format a resume using Markdown, VScode, GitHub Pages, and Jekyll.
 
 ### **Prerequisites**
+---
 
 - jekyll
 - VScode
 - a resume formatted in markdown
 
-**Instructions**
+### **Instructions**
+---
 
 _Download VSCode:_ 
 
@@ -32,8 +35,6 @@ _make a local site with jekkyll_
 1. In VSCode, open a new folder. 
 2. In the terminal on VSCode, type the command "jekyll new {site name}" to create some default scsffolding for your site in a new folder. 
 
-_Write your resume in markdown_
-
 
 _Host your site on github pages:_
 
@@ -52,13 +53,16 @@ _Host your site on github pages:_
 
 ![GIFdemo](img/screenrecordddd.gif)
 
-**More Resources**
+### **More Resources**
+---
+
 
 - [This](https://www.markdowntutorial.com) is a markdown tutorial
 - [This](https://www.amazon.ca/Modern-Technical-Writing-Introduction-Documentation-ebook/dp/B01A2QL9SS) a book about software documentation.
 <!-- - one other resource -->
 
-**Authors and Aknowledgements**
+### **Authors and Aknowledgements**
+---
 
 _group members:_
 - Michael Bathie. 
@@ -67,7 +71,8 @@ _group members:_
 - Andy Tan.
 - Olukoye Fatoki. 
 
-**FAQ**
+### **FAQ**
+---
 
 1. Why is Markdown better than a word processor?
 
