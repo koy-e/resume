@@ -106,10 +106,10 @@ _Theme authors:_
 ---
 1. Do I need to use VSCode as my Markdown editor?
 
-    `No. Any Markdown editor would probably work the same, if not better than VSCode. It was my personal choice`
+    - No. Any Markdown editor would probably work the same, if not better than VSCode. It was my personal choice`
 
 2. Why is my resumé not showing up?
 
-    `One possible issue is that your Github pages source may not be set correctly. Refer to step 13 under the Instructions subsection, "Host your site on Github pages".` 
+    - One possible issue is that your Github pages source may not be set correctly. Refer to step 13 under the Instructions subsection, "Host your site on Github pages".` 
 
-    `Another explanation for this is that your baseurl is misspelled. Refer to step 2 under the Instructions subsection, "Host your site on Github page".`
+    - Another explanation for this is that your baseurl is misspelled. Refer to step 2 under the Instructions subsection, "Host your site on Github page".`
