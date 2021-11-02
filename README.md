@@ -53,14 +53,16 @@ _download Jekyll:_ macOS
 4. To ensure that the download worked successfully. Type the command `Jekyll -v` to check the version of Jekyll you have installed.
 
 _create a static site_
-1. In VSCode, open a new folder. 
-2. In the terminal on VSCode, type the command `Jekyll new {site name}` to create some default scaffolding for your site in a new folder. 
+1. Open a new folder in VSCode 
+2. Type the command `Jekyll new {site name}`In the terminal on VSCode to create some default scaffolding for your site in a new folder. 
+3. Copy the content of your resume into the file named `index.md`.
+4. Host your brand new site on your own machine using the command `bundle exec jekyll serve`.
 
  **_c). Use distributed version control: Github Pages_**
 
 Distributed version control is a form of version control in which a project's complete codebase, along with its commit history, can be mirrored on every developer's computer. in contrast to centralized version control, Distributed version control allows automatic management branching and merging, speeds up most operations except "push" and "pull", improves developers' ability to work offline, and does not rely on a single location for its backups.
 
-For this tutorial, we will be using Github's static site hoster: Github pages. Github pages will allow you to host your resumé online for other people to see.
+For this tutorial, we will be using Github for version control and its static site hoster: Github pages. Github pages will allow you to host your resumé online for other people to see.
 
 1. Make a new repository on [GitHub](https://github.com). pick a name for your new repository and ensure that its visibility is set to public.
 2. Set the variable `baseurl`, In the `config.yml` file, that Jekyll created to the name of the repository you have just created.
@@ -68,7 +70,7 @@ For this tutorial, we will be using Github's static site hoster: Github pages. G
 4. Type the command, `git init` to initialize a local repository. 
 5. Type the command, `git checkout -b gh-pages` to check out your gh-pages branch. 
 6. Type the command, `git status`. there should be no commits done yet.
-7. Type the command `git add .` to add all the files to the local repository. 
+7. Type the command `git add.` to add all the files to the local repository. 
 8. Type `git commit m '{first commit message}`', to commit these files to your repository.
 9. Copy the link to your Github repository.
 10. Type the command, `git remote add origin {link to your Github repository}` to link your local repository to your Github repository. 
